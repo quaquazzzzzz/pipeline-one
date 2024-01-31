@@ -15,7 +15,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-  Explore-GitHub-Actions 2:
+  Explore-GitHub-Actions2:
      runs-on: ubuntu-latest
      needs:   Explore-GitHub-Actions
      steps:
